@@ -35,84 +35,97 @@
 
 <body class="text-dark-gray">
   <header class="m-8 after:border-b after:border-light-gray after:blur-[2px] after:flex after:mt-8">
-    <div class="font-lobster">
-      <h1 class="text-4xl">Refrigeração Cunha</h1>
-      <p class="text-base">conserto em refrigeração em geral</p>
+    <div class="font-lobster sm:text-left text-center">
+      <h1 class="sm:text-4xl text-2xl">Refrigeração Cunha</h1>
+      <p class="sm:text-base text-sm">conserto em refrigeração em geral</p>
     </div>
   </header>
   <main class="m-8 font-sans">
     <ul role="list" class="list-disc marker:text-dark-blue marker:text-2xl mx-8">
       <li class="my-8">
-        <h2 class="text-dark-gray my-4 text-xl font-semibold mb-8">O que consertamos?</h2>
-        <ul class="flex gap-8">
+        <h2 class="text-dark-gray my-4 sm:text-xl text-lg font-semibold mb-8">O que consertamos?</h2>
+        <ul class="flex gap-8 flex-wrap">
           <li class="grid justify-items-center">
             <img src="./images/geladeira.png" alt="geladeiras">
-            <p class="font-semibold text-dark-blue">Geladeiras</p>
+            <p class="font-semibold text-dark-blue sm:text-base text-sm">Geladeiras</p>
           </li>
           <li class="grid justify-items-center">
             <img src="./images/freezer-icon.png" alt="freezers">
-            <p class="font-semibold text-dark-blue">Freezers</p>
+            <p class="font-semibold text-dark-blue sm:text-base text-sm">Freezers</p>
           </li>
           <li class="grid justify-items-center">
             <img src="./images/cervejeira.png" alt="cervejeiras">
-            <p class="font-semibold text-dark-blue">Cervejeiras</p>
+            <p class="font-semibold text-dark-blue sm:text-base text-sm">Cervejeiras</p>
           </li>
           <li class="grid justify-items-center">
             <img src="./images/balcaorefrigerado.png" alt="balcões refrigerados e congelados">
-            <p class="font-semibold text-dark-blue text-center">Balcões refrigerados <br /> e congelados</p>
+            <p class="font-semibold text-dark-blue text-center sm:text-base text-sm">Balcões refrigerados <br /> e
+              congelados</p>
           </li>
           <li class="grid justify-items-center">
             <img src="./images/adega.png" alt="adegas">
-            <p class="font-semibold text-dark-blue">Adegas</p>
+            <p class="font-semibold text-dark-blue sm:text-base text-sm">Adegas</p>
           </li>
-          <li class="grid justify-items-center">
+          <li class="grid justify-items-center w-[80px] h-[110px]">
             <img src="./images/visu.png" alt="visu">
-            <p class="font-semibold text-dark-blue">Visu</p>
+            <p class="font-semibold text-dark-blue sm:text-base text-sm">Visu</p>
           </li>
           <li class="grid justify-items-center items-center">
-            <p class="font-semibold text-dark-blue">Outros...</p>
+            <p class="font-semibold text-dark-blue sm:text-base text-sm">Outros...</p>
           </li>
         </ul>
       </li>
       <li class="my-8">
-        <h2 class="text-dark-gray text-2xl font-semibold mb-2">Onde consertamos sua máquina?</h2>
-        <p class="text-lg">Consertamos todos os aparelhos de refrigeração no local.</p>
+        <h2 class="text-dark-gray sm:text-xl text-lg font-semibold mb-2">Onde consertamos sua máquina?</h2>
+        <p class="sm:text-lg text-base">Consertamos todos os aparelhos de refrigeração no local.</p>
       </li>
       <li class="my-8">
-        <h2 class="text-2xl font-semibold mb-2">Quais as formas de pagamento?</h2>
-        <p class="text-lg">Aceitamos pix e todos os cartões de crédito e débito de todas as marcas.</p>
+        <h2 class="sm:text-xl text-lg font-semibold mb-2">Quais as formas de pagamento?</h2>
+        <p class="sm:text-lg text-base">Aceitamos pix e todos os cartões de crédito e débito de todas as marcas.</p>
       </li>
     </ul>
   </main>
   <footer>
-    <header class="flex bg-blue text-white justify-between p-8 font-archivo">
-      <p>Fique conectado com nossas redes sociais!</p>
-      <a href="#">facebook</a>
+    <header class="flex bg-blue text-white justify-between p-8 font-archivo items-center px-12 sm:flex-row flex-col sm:gap-0 gap-4">
+      <p class="sm:text-lg text-base">Fique conectado com nossas redes sociais!</p>
+      <div class="flex gap-8">
+      <a href="#">
+        <img width="30" height="30" src="./images/icons8-facebook-50.png" alt="facebook"/>
+      </a>
+      <a href="https://api.whatsapp.com/send?phone=5516999642200">
+        <img width="30" height="30" src="./images/icons8-whatsapp-50.png" alt="whatsapp"/>
+      </a>
+      
+    </div>
     </header>
-    <main class="flex justify-between p-8">
-      <div>
-        <h3 class="text-xl font-semibold mb-2"><span class="border-b border-dark-blue">Refrigeração Cunha</span></h3>
-        <p>Técnico responsável: José da Cunha</p>
+    <main class="flex justify-between p-8 sm:flex-row flex-col sm:gap-0 gap-8">
+      <div class="text-center">
+        <h3 class="sm:text-xl text-lg font-semibold mb-2"><span class="border-b border-dark-blue">Refrigeração
+            Cunha</span></h3>
+        <p class="sm:text-base text-sm">Técnico responsável: José da Cunha</p>
       </div>
-      <div>
-        <h3 class="text-xl font-semibold mb-4"><span class="border-b border-dark-blue">Contato</span></h3>
+      <div class="sm:block flex flex-col items-center">
+        <h3 class="sm:text-xl text-lg font-semibold mb-4">
+          <span class="border-b border-dark-blue">Contato</span>
+        </h3>
         <p class="flex gap-2 mb-2">
           <img width="24" height="24" src="https://img.icons8.com/sf-regular-filled/48/home-page.png" alt="endereço" />
-          <span>Ribeirão Preto, SP 14090-430, BR</span>
+          <span class="sm:text-base text-sm">Ribeirão Preto, SP 14090-430, BR</span>
         </p>
         <p class="flex gap-2 mb-2">
           <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/new-post.png" alt="email" />
-          <span>example@email.com</span>
+          <span class="sm:text-base text-sm">example@email.com</span>
         </p>
         <p class="flex gap-2 mb-2">
           <img width="24" height="24" src="https://img.icons8.com/material-sharp/24/phone.png"
             alt="telefone residencial" />
-          <span>(16) 9 9964-2200</span>
+          <span class="sm:text-base text-sm">(16) 9 9964-2200</span>
         </p>
       </div>
     </main>
     <footer class="bg-gray">
-      <p class="font-archivo py-5 text-center">© Todos os direitos reservados.Refrigeração Cunha®;</p>
+      <p class="font-archivo py-5 text-center sm:text-base text-sm">© Todos os direitos reservados.Refrigeração Cunha®;
+      </p>
     </footer>
   </footer>
 </body>
