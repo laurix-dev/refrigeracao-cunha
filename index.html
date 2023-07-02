@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Refrigeração Cunha</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo&family=Lobster&family=Roboto&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="https://img.icons8.com/fluency/48/defrosting.png" type="image/x-icon">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            "dark-blue": '#183A68',
+            "blue": "#007BBF",
+            "gray": "#BABABA",
+            "dark-gray": "#4F4F4F",
+            "light-gray": "#666666"
+          },
+
+        },
+        fontFamily: {
+          lobster: ["Lobster", "cursive"],
+          sans: ["Roboto", "sans-serif"],
+          archivo: ["Archivo", "sans-serif"]
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="text-dark-gray">
+  <header class="m-8 after:border-b after:border-light-gray after:blur-[2px] after:flex after:mt-8">
+    <div class="font-lobster sm:text-left text-center">
+      <h1 class="sm:text-4xl text-2xl">Refrigeração Cunha</h1>
+      <p class="sm:text-base text-sm">conserto em refrigeração em geral</p>
+    </div>
+  </header>
+  <main class="m-8 font-sans">
+    <ul role="list" class="list-disc marker:text-dark-blue marker:text-2xl mx-8">
+      <li class="my-8">
+        <h2 class="text-dark-gray my-4 sm:text-xl text-lg font-semibold mb-8">O que consertamos?</h2>
+        <ul class="flex gap-8 flex-wrap">
+          <li class="grid justify-items-center">
+            <img src="./images/geladeira.png" alt="geladeiras">
+            <p class="font-semibold text-dark-blue sm:text-base text-sm">Geladeiras</p>
+          </li>
+          <li class="grid justify-items-center">
+            <img src="./images/freezer-icon.png" alt="freezers">
+            <p class="font-semibold text-dark-blue sm:text-base text-sm">Freezers</p>
+          </li>
+          <li class="grid justify-items-center">
+            <img src="./images/cervejeira.png" alt="cervejeiras">
+            <p class="font-semibold text-dark-blue sm:text-base text-sm">Cervejeiras</p>
+          </li>
+          <li class="grid justify-items-center">
+            <img src="./images/balcaorefrigerado.png" alt="balcões refrigerados e congelados">
+            <p class="font-semibold text-dark-blue text-center sm:text-base text-sm">Balcões refrigerados <br /> e
+              congelados</p>
+          </li>
+          <li class="grid justify-items-center">
+            <img src="./images/adega.png" alt="adegas">
+            <p class="font-semibold text-dark-blue sm:text-base text-sm">Adegas</p>
+          </li>
+          <li class="grid justify-items-center w-[80px] h-[110px]">
+            <img src="./images/visu.png" alt="visu">
+            <p class="font-semibold text-dark-blue sm:text-base text-sm">Visu</p>
+          </li>
+          <li class="grid justify-items-center items-center">
+            <p class="font-semibold text-dark-blue sm:text-base text-sm" title="Sistemas de Refrigeração, Maquina de Gelo, Expositores, Geladeira Brastemp, Geladeiras Bosch, Geladeira Continental, Geladeira G.E., Geladeira Side By Side, Geladeira Samsung, Geladeira Panasonic, Geladeir L.G.">Outros...</p>
+          </li>
+        </ul>
+      </li>
+      <li class="my-8">
+        <h2 class="text-dark-gray sm:text-xl text-lg font-semibold mb-2">Onde consertamos sua máquina?</h2>
+        <p class="sm:text-lg text-base">Consertamos todos os aparelhos de refrigeração <b>no local.</b></p>
+      </li>
+      <li class="my-8">
+        <h2 class="sm:text-xl text-lg font-semibold mb-2">Quais as formas de pagamento?</h2>
+        <p class="sm:text-lg text-base">Aceitamos <b>pix</b> e <b>todos os cartões de crédito e débito</b> de todas as marcas.</p>
+      </li>
+      <li class="my-8">
+        <h2 class="sm:text-xl text-lg font-semibold mb-2">Existe garantia?</h2>
+        <p class="sm:text-lg text-base">Sim, garantia de <b>3 meses.</b></p>
+      </li>
+      <li class="my-8">
+        <h2 class="sm:text-xl text-lg font-semibold mb-2">Como marcar um serviço?</h2>
+        <p class="sm:text-lg text-base">Basta mandar uma mensagem por <a class="font-semibold text-blue" href="https://api.whatsapp.com/send?phone=5516999642200" target="_blank">WhatsApp</a> ou algum outro meio descrito abaixo.</p>
+      </li>
+    </ul>
+  </main>
+  <footer>
+    <header
+      class="flex bg-blue text-white justify-between p-8 font-archivo items-center px-12 sm:flex-row flex-col sm:gap-0 gap-4">
+      <p class="sm:text-lg text-base">Fique conectado com nossas redes sociais!</p>
+      <div class="flex gap-8">
+        <a href="https://www.facebook.com/joseiroti.laurito?mibextid=ZbWKwL" target="_blank">
+          <img width="30" height="30" src="./images/icons8-facebook-50.png" alt="facebook" />
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=5516999642200">
+          <img width="30" height="30" src="./images/icons8-whatsapp-50.png" alt="whatsapp" />
+        </a>
+        <a href="https://www.instagram.com/joseiroti/?igshid=MzRlODBiNWFlZA%3D%3D" target="_blank">
+          <img width="30" height="30" src="./images/icons8-instagram-50.png" alt="instagram" />
+        </a>
+      </div>
+    </header>
+    <main class="flex justify-between p-8 sm:flex-row flex-col sm:gap-0 gap-8">
+      <div class="text-center">
+        <h3 class="sm:text-xl text-lg font-semibold mb-2">
+          <span class="border-b border-dark-blue">
+            Refrigeração Cunha
+          </span>
+        </h3>
+        <p class="sm:text-base text-sm">Técnico responsável: José Cunha</p>
+      </div>
+      <div class="sm:block flex flex-col items-center">
+        <h3 class="sm:text-xl text-lg font-semibold mb-4">
+          <span class="border-b border-dark-blue">Contato</span>
+        </h3>
+        <a class="flex gap-2 mb-2" target="_blank"
+          href="https://www.google.com/maps/place/Rua+M%C3%A1rio+Moraes+Sarmento,+181+-+Parque+dos+Lagos,+Ribeir%C3%A3o+Preto+-+SP,+14094-161/@-21.1948078,-47.7456686,17z/data=!3m1!4b1!4m6!3m5!1s0x94b9c7498efa9b29:0x4d301a4980decc76!8m2!3d-21.1948078!4d-47.7456686!16s%2Fg%2F11f2b5t5bk?entry=ttu">          
+          <img width="24" height="24" src="https://img.icons8.com/sf-regular-filled/48/home-page.png" alt="endereço" />
+          <span class="sm:text-base text-sm">
+            Rua Mário de Moraes Sarmento, 181 - Parque dos lagos
+          </span>
+        </a>
+        <a class="flex gap-2 mb-2" href="mailto:example@email.com">
+          <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/new-post.png" alt="email" />
+          <span class="sm:text-base text-sm">example@email.com</span>
+        </a>
+        <a class="flex gap-2 mb-2" href="tel:16 3618-5709">
+          <img width="24" height="24" src="https://img.icons8.com/material-sharp/24/phone.png"
+            alt="telefone residencial" />
+          <span class="sm:text-base text-sm">(16) 3618 5709</span>
+        </a>
+      </div>
+    </main>
+    <footer class="bg-gray">
+      <p class="font-archivo py-5 text-center sm:text-base text-sm">© Todos os direitos reservados.Refrigeração Cunha®;
+      </p>
+    </footer>
+  </footer>
+</body>
+
+</html>
